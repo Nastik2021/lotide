@@ -13,7 +13,7 @@ const findKeyByValue = function(obj, val) {
   const arrayOfKeys = Object.keys(obj); //stores keys of obj in this variable
   // console.log(Object.keys(obj))
   for (const keys of arrayOfKeys) {
-    if (obj[keys ]=== val) {
+    if (obj[keys] === val) {
       return keys;
     }
   }
